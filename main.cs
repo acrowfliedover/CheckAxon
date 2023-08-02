@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.IO;
+//using System.IO;
 using System;
 
-namespace Axon
+//namespace Axon
 //To Generate a Random Chart for a music with certain BPM and Length
 class ChartGenerator{
     static void Main(string[] args)
