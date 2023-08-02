@@ -8,6 +8,9 @@ namespace Axon
 class ChartGenerator{
     static void Main(string[] args)
     {
+        Console.WriteLine("Please give Chart Title");
+        string chartTitle = Console.ReadLine;
+
         Console.WriteLine("Please give BPM");
         string bpm = Console.ReadLine;
         float bpmNumber=float.Parse(bpm);
